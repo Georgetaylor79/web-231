@@ -2,4 +2,3 @@
 ## Contributors
 * Robert Kumar
 * George Taylor
-* Your assigned Instructor's name (i.e., Professor Krasso)
