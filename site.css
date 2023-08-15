@@ -25,6 +25,5 @@ h1,h2,h3 {
     margin-top:   50px;
     margin-left:  0px;
     margin-right: 100px;
-    border-color: #d6a800;
-    border-width: 20px;
+    border-bottom: 15px solid #d6a800;
 }
