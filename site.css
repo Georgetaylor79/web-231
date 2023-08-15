@@ -21,8 +21,10 @@ h1,h2,h3 {
     font-weight: 400;
 }
 .Assignment-title {
-    background-color: D6A800; 
+    background-color: #3c275a; 
     margin-top:   50px;
     margin-left:  0px;
     margin-right: 100px;
+    border-color: #d6a800;
+    border-width: 1px;
 }
