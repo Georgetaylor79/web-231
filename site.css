@@ -15,13 +15,14 @@ header {
 
 h1,h2,h3 {
     background-color: 3C275A;
-    color:#6c1cd4;
+    color:#fff;
     border: 1px;
     padding: 10px;
     font-weight: 400;
 }
 .Assignment-title {
-     margin-top:   50px;
-     margin-left:  100px;
-     margin-right: 100px;
+    background-color: #3c275a; 
+    margin-top:   50px;
+    margin-left:  100px;
+    margin-right: 100px;
 }
