@@ -32,7 +32,8 @@ h1,h2,h3,h4 {
     border-bottom: 15px solid #d6a800;
 }
 .assignment-content {
-    font: #3c275a;
+    color:#3c275a;
+    font-weight: 400;
 }
 
 .Projects-title {
