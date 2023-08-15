@@ -28,3 +28,12 @@ h1,h2,h3 {
     border-top: 15px solid #d6a800;
     border-bottom: 15px solid #d6a800;
 }
+
+.Projects-title {
+    background-color: #3c275a; 
+    margin-top:   50px;
+    margin-left:  0px;
+    margin-right: 100px;
+    border-top: 15px solid #d6a800;
+    border-bottom: 15px solid #d6a800;
+}
