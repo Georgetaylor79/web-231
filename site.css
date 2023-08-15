@@ -19,7 +19,7 @@ header {
 h1,h2,h3 {
     background-color: 3C275A;
     color:#fff;
-    border: 1px;
+    border: 1px color #d6a800;
     padding: 10px;
     font-weight: 400;
 }
