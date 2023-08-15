@@ -1,0 +1,27 @@
+/**
+    Assignment 1 - Environment Setup
+ */
+ body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #3c275a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,h2,h3 {
+    background-color: 3C275A;
+    color:#fff;
+    border: 1px;
+    padding: 10px;
+    font-weight: 400;
+}
+.Assignment-title {
+     margin-top:   50px;
+     margin-left:  100px;
+     margin-right: 100px;
+}
