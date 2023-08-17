@@ -46,6 +46,7 @@ h1,h2,h3,h4 {
 }
 
 .Important-Links {
+    color:brown
     background-color: #3c275a; 
     margin-top:   50px;
     margin-bottom: 10px;
