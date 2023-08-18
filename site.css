@@ -60,7 +60,11 @@ h1,h2,h3,h4 {
     margin-right: 100px;
     
 }
-
+.Project-content {
+    margin-top:   50px;
+    margin-left:  100px;
+    margin-right: 100px;
+}
 .Important-Links {
    
     background-color: #3c275a; 
