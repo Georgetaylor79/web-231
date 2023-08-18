@@ -68,3 +68,7 @@ a:hover{
     color:yellow
     
 }
+
+a{
+    text-decoration: none;
+}
