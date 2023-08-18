@@ -45,10 +45,9 @@ h1,h2,h3,h4 {
 
 .Projects{
     background-color: #3c275a; 
-    margin-top:   10px;
+    margin-top:   50px;
     margin-left:  100px;
     margin-right: 100px;
-    margin-bottom: 0px;
     border-top: 1px solid #d6a800;
     border-bottom: 1px solid #d6a800;
 }
