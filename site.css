@@ -60,7 +60,14 @@ h1,h2,h3,h4 {
     border-top: 1px solid #d6a800;
     border-bottom: 1px solid #d6a800;
 }
-
+.Project-title {
+    background-color: #3c275a; 
+    margin-top:   50px;
+    margin-left:  100px;
+    margin-right: 100px;
+    border-top: 1px solid #d6a800;
+    border-bottom: 1px solid #d6a800;
+}
 .project-cont {
     color: #4F3674
   
