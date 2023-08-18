@@ -52,6 +52,13 @@ h1,h2,h3,h4 {
     border-bottom: 15px solid #d6a800;
 }
 
+.project-content{
+    margin-top:   50px;
+    margin-left:  100px;
+    margin-right: 100px;
+
+}
+
 .Important-Links {
    
     background-color: #3c275a; 
