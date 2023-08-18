@@ -36,7 +36,7 @@ h1,h2,h3,h4 {
     border-bottom: 1px solid #d6a800;
 }
 .Assignment-content {
-    color:#fd0a7b;
+    color: #3c275a;
     font-weight: 400;
     margin-top:   50px;
     margin-left:  100px;
@@ -61,6 +61,7 @@ h1,h2,h3,h4 {
     
 }
 .Project-content {
+    color:#3c275a
     margin-top:   50px;
     margin-left:  100px;
     margin-right: 100px;
