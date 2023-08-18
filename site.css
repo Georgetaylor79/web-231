@@ -63,7 +63,9 @@ h1,h2,h3,h4 {
     color:#4F3674
     
 }
-
+.listlinks a{
+    color: #4F3674
+}
 a:hover{
     color:yellow
     
