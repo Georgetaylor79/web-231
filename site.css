@@ -91,7 +91,7 @@ a:visited{
 a{
     text-decoration: none;
 }
-ul{
+.project-cont{
     margin-top:   50px;
     margin-left:  100px;
     margin-right: 100px; 
