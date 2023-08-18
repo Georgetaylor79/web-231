@@ -70,7 +70,10 @@ h1,h2,h3,h4 {
 }
 .project-cont {
     color: #4F3674
-  
+    margin-top:   50px;
+    margin-bottom: 10px;
+    margin-left:  100px;
+    margin-right: 100px;  
 }
 .Important-Links {
    
