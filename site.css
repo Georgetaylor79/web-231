@@ -26,6 +26,7 @@ h1,h2,h3,h4 {
     border-style: solid;
     border-color: #d6a800;
     border-width: 1px;
+    border-top: 50px;
     padding: 10px;
     font-weight: 400;
 }
