@@ -6,15 +6,6 @@
     font-family: 'Oswald', Verdana, Arial, sans-serif; 
 }
 
-header {
-    background-color: #3c275a;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    margin-top:   50px;
-    margin-left:  100px;
-    margin-right: 100px;
-}
 hr{
     margin-top:   50px;
     margin-left:  100px;
@@ -28,11 +19,22 @@ h1,h2,h3,h4 {
     border-width: 1px;
     padding: 10px;
 }
+
+.titlename {
+    background-color: #3c275a; 
+    margin-top:   50px;
+    margin-left:  100px;
+    margin-right: 100px;
+    text-align: center;
+} 
+
+
 .Coursename {
     background-color: #3c275a; 
     margin-top:   50px;
     margin-left:  100px;
     margin-right: 100px;
+    text-align: center;
 }    
 .Assignment-title {
     background-color: #3c275a; 
