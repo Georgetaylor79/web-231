@@ -49,6 +49,19 @@ button onclick="callAlert('hello')">callAlert</button>
      }
          </script>
 
+<button id="mybutton"
+        onclick="alert('Calculations have started!');">Calculate Revenues</button>
+
+<br />
+<button onclick="show();">Show content</button>
+
+<script>
+  let show = () => {
+    let element = document.getElementById("mybutton");
+    alert("Content = " + element.innerHTML);
+  }
+</script>         
+
 <h1>Exercise 2.2 - Hello JavaScript</h1>
 
 <button type="button" onclick="myFunction()">What course am I taking?</button>
