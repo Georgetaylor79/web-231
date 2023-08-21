@@ -32,13 +32,26 @@ button onclick="callAlert('hello')">callAlert</button>
         }
 
 
-        let newBtn = document.createElement('button');
-        newBtn.innerHTML = "My new button";
-        newBtn.id = "button-id";
-
 
      </script>  
+    
+    <button id="btnMyCourse 2"
+     onclick="Alert('hello 2')">callAlert</button>
      
+     <script>
+     
+     let show = ()=> {
+        let element = document.getElementbyId("btnMyCourse2");
+        alert("Content = " + element.innerHTML);
+    
+     }
+         </script>
+
+
+
+             function showAlert() {
+                  alert("Displaying an alert box");
+             }
      <br><br><button on click="showAlert()">Display Alert box</button>
 
 <h1>Exercise 2.2 - Hello JavaScript</h1>
