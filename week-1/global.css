@@ -10,3 +10,15 @@ a{
     color: #4F3674
 }
 
+.return-home
+    a:hover{
+        color:#d6a800
+        
+    }
+    a:visited{
+        color: #3c275a
+    }
+    
+    a{
+        text-decoration: none;
+    }
