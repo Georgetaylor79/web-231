@@ -10,7 +10,7 @@ a{
     color: #4F3674
 }
 
-.return-home
+.return-home{
     a:hover{
         color:#d6a800
         
@@ -22,3 +22,5 @@ a{
     a{
         text-decoration: none;
     }
+}
+    
