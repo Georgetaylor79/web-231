@@ -1,0 +1,20 @@
+/**
+    Assignment 2 - button setup
+ */
+ body {
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif; 
+}
+
+a{
+    color: #4F3674
+}
+a:hover{
+    color:#d6a800
+    
+}
+a:visited{
+    color: #3c275a
+}
+
+    
