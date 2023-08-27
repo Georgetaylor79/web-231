@@ -62,10 +62,12 @@
         const c = new Date("12/10/22");
         let a =12.90;
         +a.toFixed(1);
-       
+        const d = new Date("12/10/2020");
+        let text = d.toLocaleDateString();
+
         
         document.getElementById("demo").innerHTML =
-        carName1 +"<li>"+ carName2+"<li>"+ address+"<li>"+c+"<li>"+a; 
+        carName1 +"<li>"+ carName2+"<li>"+ address+"<li>"+c+"<li>"+a+"<li>"+text; 
         </script>
         
       </div>
