@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- The title of the website -->
+    <title>WEB 231 - Enterprise JavaScript I</title>
+
+    <link rel="stylesheet" type="text/css" href="Taylorpayroll.css">
+
+     <!-- Google fonts for Oswald -->
+     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+   
+</head>
+<style>
+  
+</style>
+<body>
+
+
+    <div id="payroll-header">
+
+        <div class="title">
+          <div class="Payrollsystem">
+             <h1>Payroll System </h1>    
+          </div>
+        </div>
+
+
+        <div class="Employrd1">
+              <h3>Employee record 1</h3>
+
+        </div>  
+
+        <div class="Employhistory">
+            
+        <li id="payhistory3"></li>
+         
+         
+        <script>
+
+            let txtFirstNameLudwig = "Ludwig";
+            let txtLastNameBeethoven = "Beethoven";
+            let txtAddressLudwig = "505 main street";
+            const txtHireDateLudwig = new Date();
+            let text = txtHireDateLudwig.tolocaleDateString();
+            let payrate = 12.89;
+            let txtPayRateLudwig = payrate.toFixed(1);
+
+            document.getElementById("payhistory3").innerHTML = "<li>" + txtFirstNameLudwig + "<li>" + txtLastNameBeethoven
+                + "<li>" + txtAddressLudwig + "<li>" + txtHireDateLudwig + "<li>" + txtPayRateLudwig;
+
+
+        </script> 
+
+        </div>
+
+
+        <div class="Employrd2">
+            <h3>Employee record 2</h3>
+
+      </div>  
+
+    
+
+
+      <div class="Employhistory">
+       
+        <li id="payhistory"></li>
+        <script>
+       
+      
+        </script>
+        
+      </div>
+
+    
+      <div class="Employrd3">
+        <h3>Employee record 2</h3>
+
+  </div>  
+
+  <div class="Employhistory">
+
+       <li id="payhistory2"></li>
+       <script>
+      
+       
+       </script>
+
+
+
+  </div>
+      
+
+
+  <div class = "return-home">
+    <!-- link back to homepage -->
+    <a href="C:\Users\14146\Desktop\Git_Projects\web-231-1\index.html"> Return</a> 
+
+
+</div>
+          
+</body>
+</html>
