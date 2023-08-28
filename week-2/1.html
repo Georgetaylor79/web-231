@@ -40,17 +40,17 @@
          
         <script>
 
-            let txtFirstNameLudwig = "Ludwig";
-            let txtLastNameBeethoven = "Beethoven";
-            let txtAddressLudwig = "505 main street";
+            let FirstName = "Ludwig";
+            let LastName = "Beethoven";
+            let Address= "505 main street";
             const d = new Date();
             let text = d.tolocaleDateString();
 
             let payrate = 12.89;
-            let txtPayRateLudwig = payrate.toFixed(1);
+            let x = payrate.toFixed(1);
 
-            document.getElementById("payhistory3").innerHTML = "<li>" + txtFirstNameLudwig + "<li>" + txtLastNameBeethoven
-                +"<li>" + txtAddressLudwig + "<li>" + d + "<li>" + txtHireDateLudwig + "<li>" + txtPayRateLudwig;
+            document.getElementById("payhistory3").innerHTML = "<li>" + FirstName + "<li>" + LastName
+                +"<li>" + Address + "<li>" + d + "<li>" + txtHireDateLudwig + "<li>" + x;
 
 
         </script> 
