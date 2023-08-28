@@ -39,11 +39,11 @@
          
          
          <script>
-        let txtFirstNameLudwig = "Ludwig"; // Double quotes
-        let txtLastNameBeethoven = "Beethoven"; // Double quotes
-        let txtAddressLudwig = "505 main street";
-        let c = 12/10/2020;     
-        let z=12.90;
+        let txtFirstNameLudwig = "Ludwig"; // first name
+        let txtLastNameBeethoven = "Beethoven"; // last name
+        let txtAddressLudwig = "505 main street"; // address of employee
+        let c = 12/10/2020;     // Hire date
+        let z=12.90; // payrate 
         +z.toFixed(1);
        
         
@@ -71,9 +71,9 @@
        
         <li id="payhistory"></li>
         <script>
-        let FirstName1 = "Johann"; // Double quotes
-        let LastName2 = "Bach"; // Single quotes
-        let address = "505 main street"; // address of employee
+        let txtFirstNameJohann = "Johann";
+        let txtLastNameBach = "Bach"; 
+        let txtAddressJohann = "505 main street"; 
         const d = new Date("12/10/2020");
         let text = d.toLocaleDateString();
         let a =12.90;
@@ -82,7 +82,7 @@
 
         
         document.getElementById("payhistory").innerHTML =
-        FirstName1 +"<li>"+ LastName2+"<li>"+ address+"<li>"+text+"<li>"+a; 
+        txtAddressJohann +"<li>"+ txtLastNameBach+"<li>"+ txtAddressJohann+"<li>"+text+"<li>"+a; // add unordered list in print out 
         </script>
         
       </div>
@@ -100,8 +100,8 @@
         let txtFirstNameWolfgang = "Wolfgang";
         let txtLastNameMozart = "Mozart";
         let txtAddressWolfgang = "600 main street";
-        const x = new Date("12/10/2020");
-        let b = text;
+        const x = new Date("12/10/2020"); 
+        let b = text; // payrate shortcut from id payhistory
 
         
         document.getElementById("payhistory2").innerHTML =
