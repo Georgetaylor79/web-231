@@ -35,7 +35,7 @@
 
         </div>  
 
-        <div class="txtFirstNameLudgwig">
+        <div class="Employhistory">
             <li>Ludwig</li>
             <li>Beethoven</li>
             <li>505 main street</li>
@@ -52,7 +52,7 @@
     
 
 
-      <div class="txtFirstNameLudgwig">
+      <div class="Employhistory">
        
         <li id="payhistory"></li>
         <script>
@@ -78,12 +78,25 @@
 
   </div>  
 
-  <div class="txtFirstNameLudgwig">
-      <li>Looooo</li>
-      <li>Beethoven</li>
-      <li>505 main street</li>
-      <li>12/9/2020</li>
-      <li>5555</li>
+  <div class="Employhistory">
+
+        <li id="payhistory"></li>
+        <script>
+        let FirstName = "Johann"; // Double quotes
+        let LastName = "Bach"; // Single quotes
+        let address1 = "505 main street"; // address of employee
+        const d = new Date("12/10/2020");
+        let text = d.toLocaleDateString();
+        let a =12.90;
+        +a.toFixed(1);
+    
+
+    
+        document.getElementById("payhistory").innerHTML =
+        FirstName +"<li>"+ LastName+"<li>"+ address1+"<li>"+text+"<li>"+a; 
+        </script>
+
+
   </div>
       
 
