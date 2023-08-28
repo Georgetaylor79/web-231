@@ -43,13 +43,14 @@
             let txtFirstNameLudwig = "Ludwig";
             let txtLastNameBeethoven = "Beethoven";
             let txtAddressLudwig = "505 main street";
-            const txtHireDateLudwig = new Date();
-            let text = txtHireDateLudwig.tolocaleDateString();
+            const d = new Date();
+            let text = d.tolocaleDateString();
+
             let payrate = 12.89;
             let txtPayRateLudwig = payrate.toFixed(1);
 
             document.getElementById("payhistory3").innerHTML = "<li>" + txtFirstNameLudwig + "<li>" + txtLastNameBeethoven
-                + "<li>" + txtAddressLudwig + "<li>" + txtHireDateLudwig + "<li>" + txtPayRateLudwig;
+                +"<li>"+ d+ "<li>" + txtAddressLudwig + "<li>" + txtHireDateLudwig + "<li>" + txtPayRateLudwig;
 
 
         </script> 
