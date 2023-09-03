@@ -11,8 +11,8 @@ h2{
     color: #fff;
 }
 
-div.box{
+.Convert-title{
     height: 300px;
     width: 300px;
-    color:green;
+    background-color:green;
 }
