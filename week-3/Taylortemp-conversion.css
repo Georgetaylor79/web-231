@@ -14,6 +14,7 @@ h2{
 .Convert-title{
     height: 300px;
     width: 300px;
+    text-align: bottom;
     background-color:green;
-    position:  center;
+    
 }
