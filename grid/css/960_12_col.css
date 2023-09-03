@@ -2,10 +2,17 @@
     font-family: Arial, Verdana, sans-serif;
     color: #665544;
     text-align: center;}
-   #nav, #feature, .article, #footer {
+   #nav, .article, #footer {
     background-color: #efefef;
     margin-top: 20px;
     padding: 10px 0px 5px 0px;}
+
+    #feature{
+        margin-top: 300px;
+        margin: bottom 300px; ;
+        background-color: blue;
+        padding: 10px 2px 5px 3px;
+    }    
    #feature, .article {
     height: 100px;}
    li {
