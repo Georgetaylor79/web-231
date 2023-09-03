@@ -5,17 +5,13 @@ h2{
     text-align: center;
 }
 
-.Convert{
-
-   background-color:red;
-}
 
 .btn-primary {
     background-color: #4F3674;
     color: #fff;
 }
 
-div.box{
+.div{
     height: 300px;
     width: 300px;
     background-color:green;
