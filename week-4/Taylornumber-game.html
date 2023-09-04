@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB 200 Fundamentals of Web Development</title>
+
+    <link rel="stylesheet" type="text/css" href="outline.css">
+
+    <!-- Google fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the numbers game!</h1>
+</header>
+
+
+    <div class="card">
+        <div class="card-title">Pick a number between 1 and 10</div>
+        <div class="card-content">
+           <div class="form">
+                  <div class="form-field">
+                    <label for="txtmyNumber">Guess the number:</label>
+                    <input type="text" class="input" id="txtMyNumber" name="txtMyNumber">
+                  </div>
+                <div class="form-field">
+                     <button id="btnSubmit" class="btn btn-primary full-width">Submit</button>
+                </div>
+            </div>
+        </div>
+        </div>
+       <div class="card">
+            <div class="card-title">Results</div>
+            <div class="card-content" id="mynumber-result"></div>
+       </div>
+    
+
+<script>
+
+
+const random = Math.floor((Math.random()*10)+1);
+
+document.getElementById("btnSubmit").onclick = function() {
+
+        let mynumber = document.getElementById("txtMyNumber").value;
+        
+        if(myNumber == random) {
+            document.getElementById("mynumber-result").innerHTML = "Congratulations";
+        }
+        else if (myNumber > random) {
+             document.getElementById("mynumber-result").innerHTML = "Number is ";
+        }
+        else if (myNumber < random) {
+             document.getElementById("mynumber-result").innerHTML = "Number is smaller";
+        }
+       
+       }
+
+
+</script>
+
+</body>
+</html>
