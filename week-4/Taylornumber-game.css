@@ -58,3 +58,8 @@ h1 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.btn{
+    width: 50%;
+    background-color: #4F3674;
+    color: white;
+}
