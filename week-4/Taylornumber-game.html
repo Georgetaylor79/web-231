@@ -48,13 +48,13 @@ document.getElementById("btnSubmit").onclick = function() {
         let myNumber = document.getElementById("txtMyNumber").value;
         
         if(myNumber == random) {
-            document.getElementById("mynumber-result").innerHTML = "Congratulations";
+            document.getElementById("mynumber-result").innerHTML = "Congratulations! You picked the correct number!";
         }
         else if (myNumber > random) {
-             document.getElementById("mynumber-result").innerHTML = "Number is ";
+             document.getElementById("mynumber-result").innerHTML = "Number is greater than 0 ";
         }
         else if (myNumber < random) {
-             document.getElementById("mynumber-result").innerHTML = "Number is smaller";
+             document.getElementById("mynumber-result").innerHTML = "Number is smaller than 10";
         }
        
        }
@@ -65,6 +65,6 @@ document.getElementById("btnSubmit").onclick = function() {
 <div class = "return-home">
     <!-- link back to homepage -->
     <a href="C:\Users\14146\Desktop\Git_Projects\web-231-1\index.html"> Return</a> 
-    
+
 </body>
 </html>
