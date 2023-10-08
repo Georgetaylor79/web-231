@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB 200 Fundamentals of Web Development</title>
+
+    <link rel="stylesheet" type="text/css" href="Taylor_EX6.css">
+
+    <!-- Google fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<h1>
+Welcome to the Javazon App!
+</h1>
+<div id="container">
+
+    <div class="card">
+        <div class="card-title">
+            Javazon Selection Form
+        </div>
+
+        <div class="card-content">
+
+            <div class="form">
+                <div class="form-field">
+                    <label for="books">Choose a listing</label>
+                    <select name ="books" id="books"> 
+                    
+                    <option value="select">--Select--</option>
+                    <option value="products">Products</option>
+                    <option value="services">Services</option>
+                    <option value="employees">Employees</option>
+                    
+                    </select>
+              
+                </div>
+                <div class="form-field">
+                    <button id="myBtn" name="my name" class= "btn btn-primary full-width" onclick="myFunction()"> Display Listing</button>
+                    
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+<h2>Return</h2>
+    <br /><br />
+
+    <div class="card">
+        <div class="card-title">
+            Javazon Products
+        </div>
+
+        <div class="card-content">
+            <br />
+            <table id="books">
+                <tr>
+                    <th>Product ID</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total Value</th>
+                </tr>
+                <tr>
+                    <td>9781118008188</td>
+                    <td>HTML and CSS: Design and Build Websites</td>
+                    <td>22.26</td>
+                    <td>10</td>
+                    <td>222.60</td>
+                <tr>
+                    <td>9781491952023</td>
+                    <td>JavaScript: The Definitive Guide 7/E</td>
+                    <td>41.33</td>
+                    <td>7</td>
+                    <td>289.31</td>
+                </tr>
+                <tr>
+                    <td>9781449331818</td>
+                    <td>Learning JavaScript Design Pattern 1/E</td>
+                    <td>25.99</td>
+                    <td>3</td>
+                    <td>77.97</td>
+                </tr>
+                   <tr>
+                    <td>9781617292422</td>
+                    <td>Express in Action: Writing, building, and testing Node.js applications 1/E</td>
+                    <td>34.91</td>
+                    <td>3</td>
+                    <td>104.73</td>
+                </tr>
+               
+                <tr>
+                    <td>9781491954461</td>
+                    <td>MongoDB The Definitive Guide</td>
+                    <td>33.70</td>
+                    <td>8</td>
+                    <td>269.60</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        
+         <div class="car">
+        <div class="car-title">
+            Javazon Services 
+        </div>
+          
+      
+        <div class="car-content">
+            <br />
+            <table id="books">
+                <tr>
+                    <th>Service ID</th>
+                    <th>Description</th>
+                    <th>Hourly Rate</th>
+                    <th>Minimum Billable hours</th>
+                    
+                </tr>
+                <tr>
+                    <td>100</td>
+                    <td>Website Design</td>
+                    <td>150.00</td>
+                    <td>25</td>
+                   
+                <tr>
+                    <td>101</td>
+                    <td>DevOps Consulting</td>
+                    <td>125.00</td>
+                    <td>50</td>
+                   
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Database Design</td>
+                    <td>125.00</td>
+                    <td>15</td>
+                  
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
