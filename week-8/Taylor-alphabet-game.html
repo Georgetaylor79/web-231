@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>I'm thinking of a letter. Guess which: a, b, c, d or e?</p>
+
+<input id="myInput" type="text">
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var number = document.getElementById("myInput").value;
+  var text;
+
+  // If the letter is "c"
+  if (number === "2") {
+    text = "Spot on! Good job!";
+    
+  // If the letter is "b" or "d"
+  } 
+    else if (number === "1") {
+    text = "Spot";
+    
+    }else if (number === "4") {
+    text = "Sp";
+    
+  }else if (number === "3" || letter === "d") {
+    text = "Close, but not close enough.";
+    
+  // If the letter is anything else
+  } else {
+    text = "Waaay off..";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
