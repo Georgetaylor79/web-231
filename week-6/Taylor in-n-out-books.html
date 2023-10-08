@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB 200 Fundamentals of Web Development</title>
+
+    <link rel="stylesheet" type="text/css" href="Taylor_EX6.css">
+
+    <!-- Google fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<h1>
+Welcome to In-N-Out-Books
+</h1>
+<div id="container">
+
+    <div class="card">
+        <div class="card-title">
+            My Favorites
+        </div>
+
+        <div class="card-content">
+
+            <div class="form">
+                <div class="form-field">
+                    <label for="books">Book name:</label>
+                    <select name ="books" id="books"> 
+                    
+                    <option value="Select">--Select--</option>
+                    <option value="books">Top 3 Favorite Books</option>
+                    <option value="authors">Top 3 Favorite Authors</option>
+                    
+                    </select>
+              
+                </div>
+                <div class="form-field">
+                    <button id="myBtn" name="my name" class= "btn btn-primary full-width" onclick="myFunction()"> Display Listing</button>
+                    
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+<h2>Return</h2>
+    <br /><br />
+
+    <div class="card">
+        <div class="card-title">
+            Top 5 Favorite Books
+        </div>
+
+        <div class="card-content">
+            <br />
+            <table id="books">
+                <tr>
+                    <th>ISBN</th>
+                    <th>Title</th>
+                    <th>Pages</th>
+                </tr>
+                <tr>
+                    <td>0261103571</td>
+                    <td>To Kill a mockingbird</td>
+                    <td>432</td>
+                <tr>
+                    <td>1514297272</td>
+                    <td>Great Gatsby</td>
+                    <td>322</td>
+                </tr>
+                <tr>
+                    <td>1514298139</td>
+                    <td>The Scarlet Letter</td>
+                    <td>432</td>
+                </tr>
+               
+            </table>
+        </div>
+        </div>
+        
+         <div class="car">
+        <div class="car-title">
+            Top 5 Favorite Books
+        </div>
+          
+      
+        <div class="car-content">
+            <br />
+            <table id="books">
+                <tr>
+                    <th>Name</th>
+                    <th>Genre</th>
+                    
+                </tr>
+                <tr>
+                    <td>John Ronald Reuel Tolkien</td>
+                    <td>Fantasy</td>
+                   
+                <tr>
+                    <td>Franklin Patrick Herbert Jr.</td>
+                    <td>Science fiction</td>
+                   
+                </tr>
+                <tr>
+                    <td>Clive Staples Lewis</td>
+                    <td>Fantasy, science fiction, children's literature</td>
+                  
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
